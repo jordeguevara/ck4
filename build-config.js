@@ -13,10 +13,10 @@
  * (1) https://ckeditor.com/cke4/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) https://ckeditor.com/cke4/builder/a6ea6f29776698c650dbdb6a613f0a57
+ * (2) https://ckeditor.com/cke4/builder/5c0ecdde1fbdf567957bc3a4b2503fa4
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) https://ckeditor.com/cke4/builder/download/a6ea6f29776698c650dbdb6a613f0a57
+ * (3) https://ckeditor.com/cke4/builder/download/5c0ecdde1fbdf567957bc3a4b2503fa4
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -26,7 +26,7 @@
 
 var CKBUILDER_CONFIG = {
 	skin: 'moono',
-	preset: 'full',
+	preset: 'basic',
 	ignore: [
 		'.DS_Store',
 		'.bender',
@@ -53,50 +53,20 @@ var CKBUILDER_CONFIG = {
 		'tests'
 	],
 	plugins : {
-		'a11yhelp' : 1,
+		'about' : 1,
 		'basicstyles' : 1,
 		'clipboard' : 1,
-		'colorbutton' : 1,
-		'colordialog' : 1,
-		'contextmenu' : 1,
-		'copyformatting' : 1,
 		'editorplaceholder' : 1,
+		'enterkey' : 1,
 		'entities' : 1,
-		'find' : 1,
 		'floatingspace' : 1,
-		'font' : 1,
-		'format' : 1,
-		'horizontalrule' : 1,
-		'image' : 1,
 		'imageresize' : 1,
-		'indentblock' : 1,
 		'indentlist' : 1,
-		'justify' : 1,
 		'link' : 1,
 		'list' : 1,
-		'liststyle' : 1,
-		'maximize' : 1,
-		'pagebreak' : 1,
-		'pastefromgdocs' : 1,
-		'pastefromword' : 1,
-		'pastetext' : 1,
-		'pastetools' : 1,
-		'removeformat' : 1,
-		'resize' : 1,
-		'save' : 1,
-		'scayt' : 1,
-		'selectall' : 1,
-		'showborders' : 1,
-		'sourcearea' : 1,
-		'stylescombo' : 1,
-		'tab' : 1,
-		'table' : 1,
-		'tableselection' : 1,
-		'tabletools' : 1,
 		'toolbar' : 1,
 		'undo' : 1,
-		'uploadimage' : 1,
-		'wsc' : 1
+		'wysiwygarea' : 1
 	},
 	languages : {
 		'en' : 1
